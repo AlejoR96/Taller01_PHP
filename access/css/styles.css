@@ -1,0 +1,153 @@
+/*FORMATEAR ESTILOS */
+/* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*/
+
+/* AQUI VAN TODOS LOS ESTILOS DE MI APLICACION*/
+
+.styleBody {
+  font-family: "Lato", sans-serif;
+  background-color: beige solid transparent;
+  /*TEMPORALES*/
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*ESTILOS DEL HEADER*/
+
+.styleHeader {
+  background-color: cadetblue;
+  /*temporales*/
+  width: 90%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iconSena{
+  width: 75px;
+  position: absolute;
+  right:55px ;
+  top: 3%;
+  border-radius:3px solid black;
+  
+}
+
+/*ESTILOS UL LISTA DE MENU NAV*/
+.styleUl {
+  display: flex;
+}
+
+/*ESTILOS LI  DE MENU NAV*/
+.styleLi {
+  list-style: none;
+  background-color: beige;
+  margin: 0 20px 0 20px;
+  padding: 5px 15px 5px 15px;
+  border-radius: 5px;
+  border: 1px solid goldenrod;
+}
+
+/*ESTILOS LINK DE MENU*/
+.styleLink {
+  text-decoration: none;
+  color: black;
+}
+/*ESTILOS PARA EFECTO PARA ACTIVAR CON EL MOUSE*/
+a:hover {
+  color: goldenrod;
+}
+
+/*ESTILOS DEL MAIN*/
+.styleMain {
+  background-color: cadetblue;
+  /*Temporales*/
+  width: 90%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+/*ESTILOS H1 TITULO*/
+.styleH1 {
+  font-size: large;
+  font: 400;
+  margin: 20px;
+}
+
+/*ESTILOS DEL FOOTER*/
+.styleFooter {
+  background-color: cadetblue;
+  /*Temporales*/
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+/*ESTILOS CONTENEDOR GITHUB */
+.styleGithub {
+  display: flex;
+  align-items: center;
+}
+/*ESTILOS A IMAGEN GITHUB*/
+.iconGithub {
+  width: 40px;
+}
+
+/*ESTILOS CONTENEDOR SECTION PADRE*/
+.styleSection {
+  background-color: cadetblue;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+/*ESTILOS CONTENEDOR IMG PRINCIPAL*/
+.contenedorImgPrincipal {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid goldenrod;
+}
+/*ESTILOS CONTENEDOR IMG DEVELOPER 1*/
+.imgPrincipal {
+  width: 100%;
+}
+
+/*ESTILOS CONTENEDOR TEXTO PRINCIPAL*/
+.contenedorTxtPrincipal {
+  background-color: white;
+  display: flex;
+  /*justify-content: center;
+  align-items: center;*/
+  width: 40%;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid goldenrod;
+}
+.contenedorTxtPrincipalink2{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid goldenrod;
+}
+
